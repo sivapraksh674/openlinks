@@ -1,0 +1,18 @@
+{
+    "name":" OpenLinks",
+    "version":"1.0",
+    "manifest_version": 2,
+
+    "description": "To open all available links",
+    "icons": {
+        "128": "openlinks.png"
+    },
+    "browser_action": {
+        "default_title": "Have a nice day",
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "http://*/*", "https://*/*"
+    ]
+}
